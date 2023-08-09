@@ -1,0 +1,102 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(196, 242, 245);
+}
+.mainpage{
+    margin-top: -50px;
+    text-align: left;
+    max-width: auto;
+    height: auto;
+    width:100%;
+    background-image: url("./pic/NN.jpg");
+    gap:10px;
+}
+h1,h2{
+    color:azure;
+}
+
+.mainpage img{
+    max-width: 100%;
+    height: auto;
+}
+.Htopic{   
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.topic{
+    color:white;
+    background-color:rgb(148, 46, 46) ;
+    padding:15px;
+    border-radius: 100px;
+    text-decoration: 0;
+    font-size: 0.8rem;
+
+}
+.active{
+    color:white;
+    background-color:rgb(0, 0, 0) ;
+    padding:15px;
+    border-radius: 100px;
+    text-decoration: 0;
+}
+footer{
+   
+    text-align: left;
+    color: aliceblue;
+    margin:0;
+    background-color: rgb(0, 27, 106); 
+    height: 100%;
+    
+}
+#right{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr f1r;
+    float: right;
+    padding: 2em 10% 1em 0;
+    width: 30%;
+    height: 30%;
+}
+#right img{
+    width: 1000px;
+    max-width: 100%;
+    text-align: center;
+}
+#left{
+    display: block;
+    padding: 2em 0 1em 5%;
+}
+.utk{
+    text-align: right;
+}
+
+.exam{
+    text-align: center;
+    color:red;
+    font-size:1.2rem;
+}
+
+.exam img{
+    width: 1000px;
+    max-width: 100%;
+    
+}
+.new{
+   text-align: center;
+    padding:10;
+    border-radius: 100px;
+    background-color: rgb(0, 90, 216);
+}
+h3{
+    text-align: left;
+    display: block;
+    background-color: azure;
+    border-radius: 100px;
+    padding:20px;
+   
+    width: 280px;
+    
+}
